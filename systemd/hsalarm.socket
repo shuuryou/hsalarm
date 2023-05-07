@@ -1,0 +1,9 @@
+[Unit]
+Description=HiSilicon Alarm Server
+
+[Socket]
+ListenStream=0.0.0.0:15002
+Accept=yes
+
+[Install]
+WantedBy=sockets.target
